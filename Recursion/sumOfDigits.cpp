@@ -9,3 +9,12 @@ int fun(int n)
         return n;
     return fun(n / 10) + n % 10;
 }
+
+int main()
+{
+    cout << "Sum is:" << fun(253); // => 10
+}
+
+/*
+    253 => fun(25)+3 => fun(2)+5+3 , since fun(2<10, base case) => 2 + 5 + 3 => 10
+*/
