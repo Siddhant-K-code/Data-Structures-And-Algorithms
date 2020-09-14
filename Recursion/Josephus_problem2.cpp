@@ -1,3 +1,5 @@
+/* Vector Approach */
+
 #include <stdio.h>
 #include <vector>
 #include <bits/stdc++.h>
